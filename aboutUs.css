@@ -1,0 +1,27 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 25% 60% 35%;
+    grid-template-rows: 20% 40% 40%;
+    margin: 1em;
+}
+
+img{
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px #aaaaaa;
+    max-width: 200px;
+}
+
+.strap-line {
+    grid-row: 1;
+    grid-column: 1 / 4;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    img{
+        border-radius: 2px;
+        box-shadow: 3px 3px 10px #aaaaaa;
+        max-width: 100px;
+    }
+}

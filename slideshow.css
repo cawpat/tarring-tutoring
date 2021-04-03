@@ -1,0 +1,19 @@
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    border-bottom: 1px black solid;
+    background-color: aliceblue;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}

@@ -3,6 +3,7 @@
     position: relative;
     border-bottom: 1px black solid;
     background-color: aliceblue;
+    height: 100%;
   }
   
   /* Slides */

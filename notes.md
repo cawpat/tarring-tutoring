@@ -30,3 +30,24 @@ Years 9 – 11 (GCSE): £30
 Years 12 & 13 (A-level): £40 
 10% reduction for block-bookings of 10 lessons 
 (All lessons will be online or in my home; however, I can travel locally to your home for an extra £5 per hour.) 
+
+Now taking bookings for the summer term.
+ 
+Covid Info: Due to Covid guidelines, I am currently only offering online tuition. 
+However, I am happy to teach in-person as soon as it is safe and legal to do so.
+ 
+Who receives tuition
+According to the 2019 Sutton Trust-Ipsos MORI poll, the demand for private tuition is rising.
+27% of 11-16 year olds in England and Wales have had private tuition at some point.
+ 
+Benefits of private tuition
+One-to-one attention
+Personalised learning, tailored to student’s individual needs
+Fewer distractions
+Improved confidence and self-esteem
+Increased motivation
+Better performance at school and in exams
+
+‘Accredited tutor with the National Tutoring Programme’
+I have updated DBS clearance and safeguarding training. 
+DBS certificate and academic qualifications available on request. 

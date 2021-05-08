@@ -2,6 +2,9 @@ html, body {
     height: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+}
+
+.main-content {
     background-color: #eaebeb;
     background-image: linear-gradient(#D2D3D3, #F4F5F5);
 }
@@ -10,15 +13,11 @@ html, body {
     display: grid;
     height: 100%;
     grid-template-columns: auto;
-    grid-template-rows: 15% 75% 10%;
+    grid-template-rows: 15% 100% 10%;
 }
 
 .grid-container > div {
     text-align: center;
-}
-
-.footer {
-    background-color: #eaebeb;
 }
 
 .header-container {

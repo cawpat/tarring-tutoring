@@ -1,0 +1,22 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 1em black solid;
+}
+
+.contact-card {
+    background-color: #CECECE;
+    margin: 10% 30%;
+    padding: 0.7em;
+    min-height: 250px;
+    min-width: 60%;
+    border-radius: 1em;
+}
+
+.contact-card-content {
+    text-align: left;
+}
+
+.contact-additional-info {
+    margin: 10% 10%;
+}

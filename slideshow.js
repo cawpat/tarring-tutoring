@@ -4,7 +4,7 @@ function setTimedScroll() {
     window.setTimeout(() => {
         showSlides(++slideIndex);
         setTimedScroll();
-    }, 5000);
+    }, 7000);
 }
 
 window.onload = () => {

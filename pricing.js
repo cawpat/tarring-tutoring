@@ -60,7 +60,7 @@ function updateContactLink(level, payType, location){
             case "mine":
               return " - Tutors home"
             case "theirs":
-                return " - Tutee's home"
+                return " - Pupil's home"
             default:
               return ""
         }

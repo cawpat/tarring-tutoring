@@ -10,25 +10,25 @@ window.onload = function() {
             clickedElement.classList.add("selected");
 
             const selectedLevelElement = document.getElementsByClassName("pricing-option-level selected")[0]
-            const selectedPayTypeElement = document.getElementsByClassName("pricing-option-pay selected")[0]
+            // const selectedPayTypeElement = document.getElementsByClassName("pricing-option-pay selected")[0]
             const selectedLocationElement = document.getElementsByClassName("pricing-option-location selected")[0]
             
             const selectedLevel = selectedLevelElement ? selectedLevelElement.dataset.level : ""
-            const selectedPayType = selectedPayTypeElement? selectedPayTypeElement.dataset.paytype: ""
+            // const selectedPayType = selectedPayTypeElement? selectedPayTypeElement.dataset.paytype: ""
             const selectedLocation = selectedLocationElement? selectedLocationElement.dataset.location: ""
 
             const newPrice = calulatePriceForLevel(selectedLevel)
-            const newMultiplier = calulateMultiplierForPay(selectedPayType)
+            // const newMultiplier = calulateMultiplierForPay(selectedPayType)
             const newTravelCost = calulateTravelCost(selectedLocation)
 
-            document.getElementById("total-cost-value").textContent = ((newPrice * newMultiplier) + newTravelCost).toFixed(2);
+            document.getElementById("total-cost-value").textContent = (newPrice + newTravelCost).toFixed(2);
 
-            updateContactLink(selectedLevel, selectedPayType, selectedLocation)
+            updateContactLink(selectedLevel, selectedLocation)
         });
     })
 }
 
-function updateContactLink(level, payType, location){
+function updateContactLink(level, location){
     function getPrettyLevel() {
         switch(level) {
             case "ks3":
@@ -37,17 +37,6 @@ function updateContactLink(level, payType, location){
               return "GCSE "
             case "alevel":
                 return "A-Level "
-            default:
-              return ""
-        }
-    }
-
-    function getPrettyPayType() {
-        switch(payType) {
-            case "per":
-              return " paid per session"
-            case "bulk":
-              return " paid in bulk"
             default:
               return ""
         }
@@ -66,9 +55,9 @@ function updateContactLink(level, payType, location){
         }
     }
 
-    if(level !== "" && payType !== "" && location !== ""){
+    if(level !== "" && location !== ""){
         const bookLink = document.getElementById("book-via-email-link")
-        bookLink.href = `mailto:ness.gibbons@hotmail.com?subject= ${getPrettyLevel()}English Tutoring${getPrettyPayType()}${getPrettyLocation()}`
+        bookLink.href = `mailto:ness.gibbons@hotmail.com?subject= ${getPrettyLevel()}English Tutoring${getPrettyLocation()}`
         bookLink.style.display = "block"
     }
 }

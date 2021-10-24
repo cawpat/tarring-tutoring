@@ -31,7 +31,7 @@ img{
     background-color: #CECECE;
     margin: 5% 10%;
     padding: 1em 2em;
-    min-height: 85%;
+    max-height: 85%;
     width: 80%;
     border-radius: 1em;
 }

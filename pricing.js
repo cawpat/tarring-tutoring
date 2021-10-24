@@ -76,7 +76,7 @@ function updateContactLink(level, payType, location){
 function calulatePriceForLevel(level) {
     switch(level) {
         case "ks3":
-          return 25.00
+          return 30.00
         case "gcse":
           return 30.00
         case "alevel":

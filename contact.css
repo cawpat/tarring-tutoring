@@ -1,6 +1,10 @@
+html {
+    height: 100%;
+}
+
 .main-container {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     margin: 1em black solid;
 }
 
@@ -11,6 +15,12 @@
     min-height: 250px;
     min-width: 60%;
     border-radius: 1em;
+}
+
+img{
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px #aaaaaa;
+    max-width: 180px;
 }
 
 .contact-card-content {
